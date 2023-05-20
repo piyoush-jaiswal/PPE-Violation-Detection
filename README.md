@@ -1,7 +1,4 @@
-# PPE-Violation-Detection
-The aim of this project was to detect PPE on a worker, and triggering email to the admin if the violation found.(safety monitoring).
-
-# PPE Detection for Construction Site Safety using YoloV7
+# PPE Violation Detection for Construction Site Safety using YoloV7
 ![Alt text](media/intro.gif)
 > 4,764 workers died on the job in 2020 (3.4 per 100,000 full-time equivalent workers). Workers in transportation and material moving occupations and construction and extraction occupations accounted for nearly half of all fatal occupational injuries (47.4 percent), representing 1,282 and 976 workplace deaths, respectively. 
 >
@@ -25,7 +22,7 @@ There are 4 classes to detect from the dataset:
 
 ## Setup
 
-The code was trained on Kubeflow and run on a DGX A100 GPU. One should include client_secrets.json file in the root folder and update the sender email address in the hubconfCuston.py file with the same email having credentials.
+The code was trained on Kubeflow and run on a DGX A100 GPU. One should include client_secrets.json file in the root folder and update the sender email address in the hubconfCuston.py file with the same email having credentials to start sending the email to admin.
 
 **Note:** This repository contains all the results, visualizations and best model after custom training on the dataset.
 
