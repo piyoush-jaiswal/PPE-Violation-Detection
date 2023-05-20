@@ -35,9 +35,9 @@ After training, we get the following results:
 
 ![Alt text](results/confusion_matrix.png)
 
-![Alt text](results/test_batch2_pred.jpg)
+![Alt text](results/test_batch2_pred.jpeg)
 
-![Alt text](results/test_batch2_labels.jpg)
+![Alt text](results/test_batch2_labels.jpeg)
 
 ![Alt text](results/IMG_20230520_043809.jpg)
 
