@@ -30,13 +30,13 @@ The code was trained on Kubeflow and run on a DGX A100 GPU. One should include c
 
 After training, we get the following results:
 
-![Alt text](results/confusion_matrix.png)
+![Alt text](output/confusion_matrix.png)
 
-![Alt text](results/test_batch2_pred.jpeg)
+![Alt text](output/test_batch2_pred.jpeg)
 
-![Alt text](results/test_batch2_labels.jpeg)
+![Alt text](output/test_batch2_labels.jpeg)
 
-![Alt text](results/resultss.png)
+![Alt text](output/resultss.png)
 
 ## Outputs
 
